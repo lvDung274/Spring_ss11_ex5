@@ -99,7 +99,7 @@
     <!-- ========================================== -->
     <!-- Profile Local / Dev / Mặc định: In text dễ đọc ra Terminal -->
     <springProfile name="prod,docker">
-        <logger name="com.example.demo_logging" level="INFO" additivity="false">
+        <logger name="com.example.patient" level="INFO" additivity="false">
             <appender-ref ref="CONSOLE_JSON" />
             <appender-ref ref="INFO_FILE" />
             <appender-ref ref="WARN_FILE" />
